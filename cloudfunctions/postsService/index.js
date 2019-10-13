@@ -234,6 +234,7 @@ async function getPostsDetail(event) {
 async function convertPosts(content, type) {
   let res
   if (type === 'markdown') {
+    while (content.indexOf("\\n") >= 0) { content = content.replace("\\n", " \n "); } //新增 用于修复 \n 不识别问题
     res = await towxml.toJson(content || '', 'markdown');
   } else {
     res = await towxml.toJson(content || '', 'html');
