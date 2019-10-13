@@ -1,17 +1,16 @@
 /**
  * 打赏二维码
  */
-var moneyUrl ="https://test-91f3af.tcb.qcloud.la/common/WechatIMG66.jpeg?sign=38e2cccbf86dd602ae575c89b2911b16&t=1556369699"
+var moneyUrl ="https://i.loli.net/2019/10/13/voXP69YSzktZuBc.png"
 
 /**
  * 公众号二维码
  */
-var wechatUrl ="https://test-91f3af.tcb.qcloud.la/common/WechatIMG2.jpeg?sign=e81a38eec6cebfc82c1c34bb7e233bae&t=1556369822"
-
+var wechatUrl ="https://i.loli.net/2019/10/13/RXdsDoFm9hegKwB.jpg"
 /**
  * 云开发环境
  */
-var env ="product-raeub"
+var env ="xlbd"
 /**
  * 个人文章操作枚举
  */
