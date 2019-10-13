@@ -220,7 +220,7 @@ async function getPostsDetail(event) {
     }
   })
 
-  let content = await convertPosts(data.content, "html");
+  let content = await convertPosts(data.content, data.contentType);
   data.content = content;
   data.totalVisits = data.totalVisits + 1;
   await task;
